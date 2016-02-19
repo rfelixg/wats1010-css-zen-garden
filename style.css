@@ -17,7 +17,7 @@ body {
 }
 
 .intro {
-	color: white;
+/* 	color: white; */
 	font-size: 20px;
 }
 
@@ -30,6 +30,44 @@ header[role='banner'] {
 /* 	margin-right: 70px; */
 	margin-right: -200px;
 	margin-left: -28px;
+}
+
+/* Headers ------------------------------------------------------------ */
+h1 {
+	color: white;
+/* 	margin-left: 40px; */
+	margin-left: 70px;
+	margin-right: 800px;
+/* 	margin-bottom: 70px; */
+	width: 370px;
+	padding-left: 25px;
+	padding-right: 1px;
+/* 	margin-bottom: 50px; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+/* 	margin-top: 100px; */
+	font-size: 47px;
+	background: red;
+	font-weight: 100;
+	
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-ms-transform: rotate)-10deg);
+	transform: rotate(-10deg);
+	
+	-webkit-transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-o-transition: 2s ease-in-out;
+	transition: 2s ease-in-out;
+}
+
+h2 {
+	font-size: 140px;
+	color: white;
+	margin-top: -20px;
+	width: 924px;
+	word-break: break-word;
+	margin-left: 35px;
 }
 
 /* A demonstration - "Summary" -------------------------------------------- */
@@ -83,6 +121,7 @@ div.preamble p {
 div.explanation {
 	background: rgba(69, 122, 175, 0.5);
 /* 	background: rgba(49, 96, 246, 0.6); */
+/* 	background: rgba(176, 196, 222, 0.7); */
 	width: 600px;
 	margin-top: 0px;
 /* 	margin-left: 0px; */
@@ -156,74 +195,6 @@ div.requirements {
 
 div.requirements p {
 	line-height: 1.5;
-}
-
-/* Basic Setup ------------------------------------------------------------ */
-h1 {
-	color: white;
-	margin-left: 40px;
-	margin-right: 800px;
-	width: 370px;
-	padding-left: 25px;
-	padding-right: 1px;
-/* 	margin-bottom: 50px; */
-	padding-top: 30px;
-	padding-bottom: 30px;
-/* 	margin-top: 100px; */
-	font-size: 47px;
-	background: red;
-	font-weight: 100;
-}
-
-h2 {
-	font-size: 140px;
-	color: white;
-	margin-top: -20px;
-	width: 924px;
-	word-break: break-word;
-	margin-left: 35px;
-}
-
-.explanation {
-	background: rgba(176, 196, 222, 0.7);
-/* 	background: lightsteelblue; */
-}
-
-.benefits {
-	background: lightcoral;
-}
-
-.requirements {
-	background: lightpink;
-}
-
-/* Footer ----------------------------------------------------------------- */
-footer {
-/* 	background: gold; */
-	background: rgba(255, 223, 0, 0.5);
-/* 	margin-left: 50px; */
-	margin-left: -27px;
-/* 	margin-right: 900px; */
-	margin-top: -83px;
-	padding: 30px;
-	padding-left: 105px;
-	margin-bottom: 30px;
-/* 	width: 240px; */
-	width: 1289px;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-}
-
-footer a:hover {
-		color: red;
-	}
-
-/* footer a:link { */
-	color: green;
-}
-
-footer a:visited {
-	color: green;
 }
 
 /* Sidebar ---------------------------------------------------------------- */
@@ -331,4 +302,33 @@ h3 {
 
 .sidebar li a:visited {
 	color: #B3AE94;
+}
+
+/* Footer ----------------------------------------------------------------- */
+footer {
+/* 	background: gold; */
+	background: rgba(255, 223, 0, 0.5);
+/* 	margin-left: 50px; */
+	margin-left: -27px;
+/* 	margin-right: 900px; */
+	margin-top: -83px;
+	padding: 30px;
+	padding-left: 105px;
+	margin-bottom: 30px;
+/* 	width: 240px; */
+	width: 1289px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+footer a:hover {
+		color: red;
+	}
+
+/* footer a:link { */
+	color: green;
+}
+
+footer a:visited {
+	color: green;
 }
