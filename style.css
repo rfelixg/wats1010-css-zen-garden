@@ -1,11 +1,10 @@
 body {
-/* 	font-family:"tablet-gothic", verdana, arial, sans-serif;  */
-/* 	text-align: left; */
 	margin-right: 200px;
-/* 	background: lightsteelblue; */
-/* 	background: rgba(176, 196, 222, 0.5); */
-/* 	background: rgb(196, 195, 208); */
-	background: rgb(128, 128, 128);
+/* 	background: rgba(0, 0, 0, 0.3); */
+	background: rgba(174, 198, 207, 0.6);
+/* 	background: rgba(202, 206, 201, 0.8); */
+/* 	background: linear-gradient(to left, steelblue 0%,steelblue 50%,#000000 50%,green 50%,green 100%); */
+/* 		background: linear-gradient(to left, rgba(202, 206, 201, 0.8) 0%, rgba(202, 206, 201, 0.8) 50%,#000000 50%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%); */	
 /* 	font-weight: 1000; */
 	font-size: 19px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -19,18 +18,18 @@ body {
 
 .intro {
 	color: white;
-/* 	background: rgba(176, 196, 222, 0.5); */
-/* 	background: lightsteelblue; */
-/* 	text-align: center; */
 	font-size: 20px;
 }
 
 header[role='banner'] {
 /* 	background: rgba(174, 198, 207, 0.9); */
-	background: black;
+	background: rgba(0, 0, 0, 0.8);
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-bottom: 50px;
+/* 	margin-right: 70px; */
+	margin-right: -200px;
+	margin-left: -28px;
 }
 
 /* A demonstration - "Summary" -------------------------------------------- */
@@ -57,16 +56,18 @@ div.summary p {
 
 /* The Road to Enlightenment --------------------------------------------- */ 
 div.preamble {
-	background: white;
+/* 	background: white; */
+	background: rgba(247, 250, 251, 0.8);
 	/* 	background: #888888; */
 	color: black;
-	margin-right: 90px;
+/* 	margin-right: 90px; */
 	margin-left: -100px;
 	width: 1000px;
+/* 	width: 102%; */
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 100px;
-	padding-right: 180px;
+	padding-right: 397px;
 }
 
 div.preamble h3 {
@@ -80,14 +81,16 @@ div.preamble p {
 
 /* So What's This About? -------------------------------------------------- */
 div.explanation {
-/* 	background: lightsteelblue; */
-	
+	background: rgba(69, 122, 175, 0.5);
+/* 	background: rgba(49, 96, 246, 0.6); */
 	width: 600px;
 	margin-top: 0px;
-	margin-left: 0px;
+/* 	margin-left: 0px; */
+	margin-left: 30px;
 	padding-right: 542px;
 	padding-top: 150px;
-	padding-bottom: 300px;
+/* 	padding-bottom: 300px; */
+	padding-bottom: 720px;
 	padding-left: 70px;
 }
 
@@ -98,14 +101,16 @@ div.explanation {
 /* Participation ---------------------------------------------------------- */
 div.participation {
 	width: 400px;
-	margin-left: 700px;
-	margin-top: -862px;
+	margin-left: 750px;
+/* 	margin-top: -862px; */
+	margin-top: -1250px;
 	padding-top: 40px;
-	padding-bottom: 60px;
+/* 	padding-bottom: 60px; */
+	padding-bottom: 900px;
 	padding-left: 50px;
 	padding-right: 130px;
 /* 	background-color: lightgreen; */
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: rgba(255, 0, 0, 0.4);
 /* 	background-color: hsla(120, 100%, 75%, 0.5); */
 }
 
@@ -120,9 +125,13 @@ div.benefits {
 	padding-left: 30px;
 	padding-right: 70px;
 	padding-bottom: 10px;
-	margin-top: -29px;
-	margin-left: 0px;
-	background-color: white;
+/* 	margin-top: -760px; */
+	margin-top: -886px;
+/* 	margin-left: 0px; */
+	margin-left: 30px;
+/* 	background-color: white; */
+	background: rgba(247, 250, 251, 0.8);
+/* 	background: rgba(0, 0, 0, 0.1); */
 }
 
 div.benefits p {
@@ -131,11 +140,16 @@ div.benefits p {
 
 /* Requirements ----------------------------------------------------------- */
 div.requirements {
-	margin-left: 400px;
-	margin-top: -481px;
-	background-color: white;
+	margin-left: 430px;
+/* 	margin-right: -14px; */
+	margin-right: -44px;
+/* 	margin-top: -480px; */
+	margin-top: -448px;
+/* 	background: rgba(247, 250, 251, 0.9); */
+	background: rgba(63, 191, 127, 0.9);
 	padding-top: 50px;
-	padding-bottom: 50px;
+/* 	padding-bottom: 50px; */
+	padding-bottom: 180px;
 	padding-left: 30px;
 	padding-right: 20px;
 }
@@ -165,6 +179,9 @@ h2 {
 	font-size: 140px;
 	color: white;
 	margin-top: -20px;
+	width: 924px;
+	word-break: break-word;
+	margin-left: 35px;
 }
 
 .explanation {
@@ -182,12 +199,17 @@ h2 {
 
 /* Footer ----------------------------------------------------------------- */
 footer {
-	background: gold;
-	margin-left: 50px;
-	margin-right: 900px;
+/* 	background: gold; */
+	background: rgba(255, 223, 0, 0.5);
+/* 	margin-left: 50px; */
+	margin-left: -27px;
+/* 	margin-right: 900px; */
+	margin-top: -83px;
 	padding: 30px;
+	padding-left: 105px;
 	margin-bottom: 30px;
-	width: 240px;
+/* 	width: 240px; */
+	width: 1289px;
 	letter-spacing: 1px;
 	word-spacing: 3px;
 }
@@ -196,47 +218,56 @@ footer a:hover {
 		color: red;
 	}
 
+/* footer a:link { */
+	color: green;
+}
+
+footer a:visited {
+	color: green;
+}
+
 /* Sidebar ---------------------------------------------------------------- */
 h3.select {
-	font-size: 19px;
-	font-weight: 100;
+	font-size: 23px;
+	font-weight: 400;
 }
 
 h3 {
-	font-size: 19px;
+	font-size: 25px;
 	font-weight: 400;
 }
 
 .sidebar {
 	color: white;
 	margin-left: 600px; 
+	margin-right: 30px;
 	position: absolute; 
 	top: 0; 
 	right: 0;
-	background: rgb(255, 223, 0);
+/* 	background: rgb(255, 223, 0); */
+	background: rgba(255, 223, 0, 0.9);
 /* 	background-color: gold; */
-	
 	padding-left: 40px;
-	padding-right: 40px;
+	padding-right: 55px;
 	padding-bottom: 100px;
-	margin-top: 100px;
+	margin-top: 81px;
 }
 
 .sidebar .wrapper { 
-	font-size: 15px;
-	font-family:"tablet-gothic", verdana, arial, sans-serif;  
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	font-size: 18px;
+/* 	font-family:"tablet-gothic", verdana, arial, sans-serif;   */
+/* 	background: transparent url(paper-bg.jpg) top left repeat-y;  */
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 160px; 
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .sidebar h3.select { 
 /* 	background: transparent url(h3.gif) no-repeat top left;  */
-	margin: -50px 0 5px 0; 
+	margin: -55px 0 5px 0; 
 	width: 97px; 
-	height: 20px; 
+	height: 50px; 
 	
 /* 	text-indent: 100%; */
 	white-space: nowrap;
@@ -245,24 +276,27 @@ h3 {
 
 .sidebar h3.archives { 
 	background: transparent url(h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
+	margin: 55px 0 5px 0; 
+/* 	mmargin: 25px 0 5px 0; */
+	
 	width:57px; 
 	height: 50px; 
+/* 	height: 40px; */
 
-	text-indent: 100%;
+/* 	text-indent: 100%; */
 	white-space: nowrap;
-	overflow: hidden;
+/* 	overflow: hidden; */
 }
 
 .sidebar h3.resources { 
 	background: transparent url(h6.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
+	margin: 55px 0 5px 0; 
 	width:63px; 
 	height: 50px; 
 
-	text-indent: 100%;
+/* 	text-indent: 100%; */
 	white-space: nowrap;
-	overflow: hidden;
+/* 	overflow: hidden; */
 }
 
 .sidebar ul {
@@ -271,12 +305,12 @@ h3 {
 }
 
 .sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
+	line-height: 1.5em; 
+/* 	background: transparent url(cr1.gif) no-repeat top center;  */
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
-	list-style-type: none;
+/* 	list-style-type: none; */
 }
 
 .sidebar li:hover {
